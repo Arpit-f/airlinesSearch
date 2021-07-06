@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: whitesmoke;
+  padding-bottom: 1.5rem;
+}
+
+.logo {
+  width: 30%;
+  padding: 1.3rem;
+}
+span {
+  font-size: 1.7rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(133, 133, 207);
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+.leftnav {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.leftnav a {
+  padding: 1.3rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.leftnav a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search {
+  background: lavender;
+  max-width: 1000px;
+  padding: 0.2rem;
+  margin: auto;
+  text-align: center;
+}
+label {
+  display: block;
+}
+
+input,
+option,
+select {
+  width: 80%;
+  padding: 0.2rem;
+}
+
+.result {
+  background: rgba(209, 205, 205, 0.7);
+  max-width: 1000px;
+  margin: 0px auto;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.resultBox {
+  margin: 0.2rem auto;
+  text-align: center;
+}
+.result > h2 {
+  padding: 0.2rem;
+  width: max-content;
+  margin: auto;
+}
+.result h4 {
+  padding: 0.1rem;
+  display: inline;
+  font-size: 1.3rem;
+}
+p {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+.btn {
+  display: block;
+  width: 80%;
+  padding: 0.2rem;
+  margin: 0.3rem auto;
+}
+.btn:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.background {
+  background: rgb(137 138 156 / 91%);
+}
+.btn-right {
+  background: rgb(222 218 228 / 91%);
+  color: black;
+  padding: 0.3rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+.btn-right:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.new {
+  color: antiquewhite;
+}
+@media screen and (min-width: 600px) {
+  .segment {
+    display: flex;
+    justify-content: space-around;
+  }
+  .search {
+    max-width: 500px;
+    padding-right: 0.2rem;
+    height: 90vh;
+  }
+  .result {
+    min-width: 350px;
+    flex-grow: 1;
+  }
+}

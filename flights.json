@@ -1,0 +1,11 @@
+[
+    {
+        "origin location": "delhi", "destination":"mumbai", "ticketType":"oneway","departure date" :["2021-06-10", "2021-06-16"],  "return date":[""], "price":["5000","7000"],"passengers": ["1","2","3","4","5","6"]
+    } ,
+    {
+        "origin location": "pune", "destination":"mumbai", "departure date" :["2021-06-10", "2021-06-16"], "ticketType":["oneway, return"], "return date":["2021-06-12","2021-06-20"], "price":["3000","5000"],"passengers": ["1","2","3","4","5","6"]
+    } ,
+    {
+        "origin location": "mumbai", "destination":"delhi", "ticketType":"oneway","departure date" :["2021-06-10", "2021-06-16"],  "return date":[""], "price":["5000","7000"],"passengers": ["1","2","3","4","5","6"]
+    }
+]

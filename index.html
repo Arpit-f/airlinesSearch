@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airline</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header">
+      <div class="navbar">
+        <div class="logo">
+          <span>Kashi Airlines</span>
+        </div>
+        <div class="leftnav">
+          <a href="">Home</a>
+          <a href="">About</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="segment">
+      <section class="search">
+        <h2>Search flight for Pune, Mumbai, Delhi</h2>
+        <form>
+          <label for="origin location">Origin location</label>
+          <select name="" id="originLocation">
+            <option value="delhi">Delhi</option>
+            <option value="pune">Pune</option>
+            <option value="mumbai">Mumbai</option>
+          </select>
+
+          <label for="destination">Destination</label>
+          <select name="designation" id="designation">
+            <option value="delhi">Delhi</option>
+            <option value="pune">Pune</option>
+            <option value="mumbai">Mumbai</option>
+          </select>
+
+          <label for="ticketType">Ticket Type:</label>
+          <select name="ticketType" id="ticketType">
+            <option value="oneway">One-way-ticket</option>
+            <option value="return">Return-ticket</option>
+          </select>
+
+          <label for="departure date">Departure Date:</label>
+          <select name="date" id="departureDate">
+            <option value="2021-06-10">2021-06-10</option>
+            <option value="2021-06-12">2021-06-12</option>
+            <option value="2021-06-16">2021-06-16</option>
+            <option value="2021-06-20">2021-06-20</option>
+          </select>
+          <label for="return date">Return Date:</label>
+          <select id="returnDate">
+            <option value="2021-06-10">2021-06-10</option>
+            <option value="2021-06-12">2021-06-12</option>
+            <option value="2021-06-16">2021-06-16</option>
+            <option value="2021-06-20">2021-06-20</option>
+          </select>
+          <label for="price">Price</label>
+          <select name="price" id="price">
+            <option value="3000">3000 Rs</option>
+            <option value="5000">5000 Rs</option>
+            <option value="7000">7000 Rs</option>
+          </select>
+          <label for="passengers">Passengers</label>
+          <select name="price" id="passengers">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+          <button class="btn" id="btn">Search</button>
+        </form>
+      </section>
+      <section class="result background">
+        <h2>Result</h2>
+        <div class="container">
+          <div class="resultBox" id="resultBox">
+            <h4>Origin Location</h4>
+            ->>
+            <h4>Destination</h4>
+            <p>Ticket Type:</p>
+            <p>Departure date</p>
+            <p>Return date</p>
+            <p>Price Range:</p>
+            <p>Total Tickets:</p>
+            <button class="btn-right">Book flight</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
